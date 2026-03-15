@@ -5,7 +5,7 @@ function Projects() {
 
   useEffect(()=>{
 
-    fetch("src/assets/source.json")
+    fetch("api/source.json")
       .then(res => res.json())
       .then(data => setProjects(data.projects))
       .catch(err => console.log(err));
