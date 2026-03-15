@@ -6,9 +6,9 @@ function Skills() {
   
     useEffect(()=>{
   
-      fetch("http://localhost:3000/skills")
+      fetch("src/assets/source.json")
         .then(res => res.json())
-        .then(data => setSkillGroups(data))
+        .then(data => setSkillGroups(data.skills))
         .catch(err => console.log(err));
   
     },[]);
