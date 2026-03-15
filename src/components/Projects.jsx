@@ -5,9 +5,9 @@ function Projects() {
 
   useEffect(()=>{
 
-    fetch("http://localhost:3000/projects")
+    fetch("src/assets/source.json")
       .then(res => res.json())
-      .then(data => setProjects(data))
+      .then(data => setProjects(data.projects))
       .catch(err => console.log(err));
 
   },[]);
