@@ -1,16 +1,149 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **single-page developer portfolio** built using **React and Vite**.
+This project showcases my projects, skills, and contact information with a clean UI, smooth animations, and theme support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 🎨 **Modern UI Design**
+* 🌗 **Light / Dark Mode Toggle**
+* ⌨️ **Dynamic Typing Animation** for roles
+* 📱 **Responsive Layout** using Bootstrap
+* 🧭 **Smooth Navigation with Active Section Highlight**
+* 🎯 **Project Showcase Section**
+* 🧠 **Skills Section**
+* 📬 **Contact Form**
+* 🔗 **Social Links (GitHub, LinkedIn, etc.)**
+* 🗂 **JSON-based mock backend** using json-server
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend:
+
+* React
+* Vite
+* Bootstrap
+* CSS3
+* JavaScript (ES6+)
+
+Backend (Mock API):
+
+* JSON Server
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio
+│
+├── public
+│
+├── src
+│   ├── assets
+│   │   └── images
+│   │
+│   ├── components
+│   │   ├── Navbar.jsx
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Skills.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── App.jsx
+│   └── index.css
+│
+├── db.json
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/yourusername/portfolio.git
+```
+
+```
+cd portfolio
+```
+
+---
+
+### 2️⃣ Install dependencies
+
+```
+npm install
+```
+
+---
+
+### 3️⃣ Start the development server
+
+```
+npm run dev
+```
+
+---
+
+### 4️⃣ Run the JSON backend
+
+```
+npx json-server --watch db.json --port 3001
+```
+
+The API will run at:
+
+```
+http://localhost:3001
+```
+
+---
+
+## 📊 Example API Endpoints
+
+```
+/roles
+/projects
+/skills
+```
+
+These endpoints are used to dynamically fetch data for the portfolio.
+
+---
+
+## 🎨 UI Highlights
+
+* Gradient navbar with animated underline
+* Section reveal animations
+* Typing text animation in hero section
+* Clean card-based layout
+* Theme-aware components
+
+---
+
+## 📬 Contact
+
+If you'd like to connect:
+
+* GitHub: https://github.com/yourusername
+* LinkedIn: https://linkedin.com/in/yourusername
+
+---
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+⭐ If you like this project, consider giving it a star!
