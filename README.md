@@ -7,16 +7,16 @@ This project showcases my projects, skills, and contact information with a clean
 
 ## ✨ Features
 
-* 🎨 **Modern UI Design**
-* 🌗 **Light / Dark Mode Toggle**
-* ⌨️ **Dynamic Typing Animation** for roles
-* 📱 **Responsive Layout** using Bootstrap
-* 🧭 **Smooth Navigation with Active Section Highlight**
-* 🎯 **Project Showcase Section**
-* 🧠 **Skills Section**
-* 📬 **Contact Form**
-* 🔗 **Social Links (GitHub, LinkedIn, etc.)**
-* 🗂 **JSON-based mock backend** using json-server
+*  **Modern UI Design**
+*  **Light / Dark Mode Toggle**
+*  **Dynamic Typing Animation** for roles
+*  **Responsive Layout** using Bootstrap
+*  **Smooth Navigation with Active Section Highlight**
+*  **Project Showcase Section**
+*  **Skills Section**
+*  **Contact Form**
+*  **Social Links (GitHub, LinkedIn, etc.)**
+*  **JSON-based mock backend** using json-server
 
 ---
 
@@ -65,7 +65,7 @@ portfolio
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1️⃣ Clone the repository
 
@@ -135,8 +135,8 @@ These endpoints are used to dynamically fetch data for the portfolio.
 
 If you'd like to connect:
 
-* GitHub: https://github.com/yourusername
-* LinkedIn: https://linkedin.com/in/yourusername
+* GitHub: https://github.com/Jashwanth-SR-II
+* LinkedIn: https://www.linkedin.com/in/jashwanth-s-r-5486a0330
 
 ---
 
