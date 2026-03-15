@@ -1,8 +1,9 @@
+import Photo from '../assets/image.png';
 
 function Home() {
 
   return (
-    <section id="home" className="hero-section d-flex align-items-center portfolio-section">
+    <section id="home" className="hero-section d-flex align-items-center portfolio-section mt-5 pt-5">
 
       <div className="container">
 
@@ -39,7 +40,7 @@ function Home() {
           <div className="col-lg-6 text-center mt-5 mt-lg-0">
 
             <img
-              src="/src/assets/image.png"
+              src={Photo}
               alt="developer"
               className="hero-img"
             />
