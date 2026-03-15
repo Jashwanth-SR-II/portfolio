@@ -1,0 +1,44 @@
+{
+    "projects":[
+        {
+            "title": "Event Management Website",
+            "desc": "A platform to manage events with polls, chats and interactive features.",
+            "tech": "HTML, CSS, JavaScript",
+            "github": "#",
+            "demo": "#"
+        },
+        {
+            "title": "React Portfolio",
+            "desc": "Personal portfolio built using React and Bootstrap.",
+            "tech": "React, Bootstrap",
+            "github": "#",
+            "demo": "#"
+        },
+        {
+            "title": "Machine Learning Model",
+            "desc": "Implementation of Bagging and Boosting with Decision Trees.",
+            "tech": "Python, Scikit-learn",
+            "github": "#",
+            "demo": "#"
+        }
+    ]
+    ,"skills":[
+        {
+            "title": "Frontend",
+            "skills": ["HTML", "CSS", "JavaScript", "React", "Bootstrap"]
+        },
+        {
+            "title": "Backend",
+            "skills": ["Node.js", "Express"]
+        },
+        {
+            "title": "Programming",
+            "skills": ["Python", "C++", "Java"]
+        },
+        {
+            "title": "Tools",
+            "skills": ["Git", "Linux", "VS Code"]
+        }
+    ]
+
+}
