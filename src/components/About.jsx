@@ -1,3 +1,5 @@
+import AboutImage from '../assets/about.png';
+
 function About() {
   return (
     <section id="about" className="about-section portfolio-section">
@@ -14,7 +16,7 @@ function About() {
           {/* Image */}
           <div className="col-lg-4 text-center">
             <img
-              src="src/assets/about.png"
+              src={AboutImage}  
               alt="profile"
               className="about-profile"
             />
